@@ -1,2 +1,2 @@
-# week2
-Week 2 Programming Challenges
+# Week 2
+Week 2 programming challenges solutions
