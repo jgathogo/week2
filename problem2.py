@@ -1,5 +1,11 @@
 import sys
 
+"""
+Notes:
+- see comment in problem0.py on first line of docstring
+- see comment in problem1.py on return value; if the return value is None then we leave out the 'return' from the docstring
+- Your program has no exit code!
+"""
 
 def print_name_age_77():
     """
@@ -8,8 +14,9 @@ def print_name_age_77():
     :return: name, age, year of birth and year when user will be 77 years old
     """
     name = input("Enter your name: ")
-    age = int(input("Enter your age: "))
+    age = int(input("Enter your age: ")) # this is the key; casting to an int
 
+    # good variable names; something like 'yob' would also do
     year_of_birth = 2021 - age
     year_77 = 2021 + (77 - age)
 
@@ -19,6 +26,7 @@ def print_name_age_77():
 
 def main():
     print_name_age_77()
+
 
 
 if __name__ == "__main__":
