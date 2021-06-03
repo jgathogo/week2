@@ -1,3 +1,4 @@
+import os
 import sys
 
 """
@@ -8,10 +9,9 @@ Notes:
 """
 
 def print_name_age_77():
-    """
-    Ask user their name and age. Print out their year of birth and year when they will be 77 years
+    """ Ask user their name and age. Print out their year of birth and year when they will be 77 years
 
-    :return: name, age, year of birth and year when user will be 77 years old
+    :return: None
     """
     name = input("Enter your name: ")
     age = int(input("Enter your age: ")) # this is the key; casting to an int
@@ -26,6 +26,7 @@ def print_name_age_77():
 
 def main():
     print_name_age_77()
+    return os.EX_OK
 
 
 

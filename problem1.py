@@ -13,7 +13,7 @@ introduce a newline (\n) in the documentation, which doesn't look good. I've cor
 def print_name_age():
     """Ask user name and age and print out the result
 
-    :return: name and age entered
+    :return: None
     """
     name = input("Please enter your name: ")
     age = input("Please enter your age in years: ")
