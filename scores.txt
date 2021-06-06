@@ -1,6 +1,6 @@
 #problem/scores
-0/9
-1/9
+0/10
+1/10
 2/10
 3/10
 4/10
@@ -9,4 +9,4 @@
 7/1 # for the attempt
 8/10
 9/10
-Total/87
+Total/89
