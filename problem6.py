@@ -2,6 +2,7 @@ import sys
 import os
 import math
 
+
 def calculate(a, b, c):
     """ Solve quadratic equation and return the value of x
 

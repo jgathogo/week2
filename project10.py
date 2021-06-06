@@ -2,7 +2,14 @@ import os
 import sys
 import random
 
-
+"""
+Notes
+- Great discovering random.uniform. This should be the same as random.random()
+- Good variable names!
+- If you find time you can incorporate what we learned in Week 3 where you apply 
+assertions to ensure the values entered by the user are in the right range e.g. 
+if the user enters x = 1.1 the stop with a warning.
+"""
 def main():
     big_x = random.uniform(0, 1)
     big_y = random.uniform(0, 1)

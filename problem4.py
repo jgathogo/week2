@@ -10,6 +10,7 @@ def main():
     # b. Variable type is string
 
     h_encoded = h.encode(encoding="utf-8")
+    # it's good that above is explicing using the keyword argument (typically abbreviated to kwarg)
     print(h_encoded, type(h_encoded))
 
     # c. Type of encoded data is: bytes

@@ -2,6 +2,20 @@ import sys
 import os
 import math
 
+
+"""
+Notes
+- The trick here is to split the right hand side (RHS) of the equation into two 
+fractions i.e. x = -b/2/a +/- math.sqrt(discriminant)/2/a
+- The discriminant is >= 0 for real roots and < 0 for imaginary roots
+- For real roots: x1,2 = -b/2/a +/- math.sqrt(discriminant)/2/a as usual
+- For complex roots: 
+    x1 = complex(-b/2/a, math.sqrt(-discriminant)/2/a)
+    x2 = complex(-b/2/a, -math.sqrt(-discriminant)/2/a)
+I've leave it to your to experience the joy of solving it
+"""
+
+
 def calculate(a, b, c):
     """ Solve quadratic equation and return the value of x
 

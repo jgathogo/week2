@@ -13,10 +13,12 @@ def main():
     # b. Number of 'it' occurrences is 13
 
     s_lower = s.lower()
+    print(s_lower)
     print(s_lower.islower())  # confirm conversion
     # c. Whole text converted into lowercase
 
     s_i_replaced = s_lower.replace("i", "*")
+    print(s_i_replaced)
     print(s_i_replaced.count("i"))  # confirm replacement
     # d. Replaced all instances of 'i' with '*'
 

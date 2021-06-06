@@ -8,13 +8,11 @@ Notes:
 - Your program has no exit code!
 """
 
-def print_name_age_77():
-    """ Ask user their name and age. Print out their year of birth and year when they will be 77 years
 
-    :return: None
-    """
+def print_name_age_77():
+    """ Ask user their name and age. Print out their year of birth and year when they will be 77 years"""
     name = input("Enter your name: ")
-    age = int(input("Enter your age: ")) # this is the key; casting to an int
+    age = int(input("Enter your age: "))  # this is the key; casting to an int
 
     # good variable names; something like 'yob' would also do
     year_of_birth = 2021 - age
@@ -27,7 +25,6 @@ def print_name_age_77():
 def main():
     print_name_age_77()
     return os.EX_OK
-
 
 
 if __name__ == "__main__":

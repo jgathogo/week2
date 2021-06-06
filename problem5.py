@@ -2,6 +2,12 @@ import sys
 import os
 import math
 
+"""
+Notes:
+- Excellent docstrings
+"""
+
+
 def calculate(a, b, c):
     """ Solve quadratic equation and return the value of x
 
