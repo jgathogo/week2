@@ -26,10 +26,13 @@ def calculate(a, b, c):
     :rtype: tuple(float, float)
     """
     discriminant = b ** 2 - 4 * a * c
+    disc_complex = complex(discriminant, math.sqrt(-discriminant)/(2 * a))
+
+    print(f"Discriminant: {discriminant} Complex: {disc_complex}")
     if discriminant < 0:
         return None, None
-    x1 = complex((-b + math.sqrt(discriminant)) / (2 * a), 1)
-    x2 = complex((-b - math.sqrt(discriminant)) / (2 * a), 1)
+    x1 = (-b + math.sqrt(discriminant)) / (2 * a)
+    x2 = (-b - math.sqrt(discriminant)) / (2 * a)
     return x1, x2
 
 
